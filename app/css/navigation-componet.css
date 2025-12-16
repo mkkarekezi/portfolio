@@ -1,0 +1,21 @@
+.navigation {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+
+  .navigation-links {
+    border-top: 1px solid black;
+    border-bottom: 1px solid black;
+    padding: 4px 1px;
+    display: flex;
+    flex-direction: row;
+    font-size: 13px;
+    text-transform: uppercase;
+    gap: 8px;
+
+    .navigation-links-icon {
+      height: 14px;
+    }
+  }
+}
