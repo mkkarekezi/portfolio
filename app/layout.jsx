@@ -1,4 +1,4 @@
-import "./css/globals.css";
+import "./globals.css";
 import localFont from "next/font/local";
 
 const jersey10 = localFont({
