@@ -39,10 +39,11 @@ export default function Home() {
           template_logo="/icons/project-logo.svg"
           titleOne="akagera"
           titleTwo="roam"
+          project_title="akagera roam"
           project_Description={`The magic of design is that it’s literally life changing. It’s changed my life, of course, but it changes the life of every user too. A great house build starts with a solid foundation. And it takes great vision to see an end goal that doesn’t yet exist. We need more than head-turning aesthetics, we need perspective-shifting impact. This is how we break down barriers and solve problems. 
-            <br/>
-            <br/>
-            The magic of design is that it’s literally life changing. It’s changed my life, of course, but it changes the life of every user too. A great house build starts with a solid foundation. And it takes great vision to see an end goal that`}
+           \n\
+           \n\
+          The magic of design is that it’s literally life changing. It’s changed my life, of course, but it changes the life of every user too. A great house build starts with a solid foundation. And it takes great vision to see an end goal that`}
           project_speciality_one="Fast and responsive UI"
           project_speciality_two="Highly maintainable code"
           source_link="https://github.com/yourrepo"
@@ -56,6 +57,27 @@ export default function Home() {
             </>
           }
         />
+
+        <footer className="home-main-footer">
+          <div className="home-main-fooeter-wrapper">
+            <h3 className="home-main-fooeter-wrapper-h3">
+              hi again, wanna send me a chat
+            </h3>
+            <div className="home-main-fooeter-wrapper-par">
+              m.kkarekezi@gmail.com
+            </div>
+          </div>
+          <h1 className="home-main-fooeter-h1">developing to “inspire”</h1>
+          <div className="home-main-fooeter-p">
+            The magic of design is that it’s literally life changing. It’s
+            changed my life, of course, but it changes the life of every user
+            too. A great house build starts with a solid foundation. And it
+            takes great vision to see an end goal that The magic of design is
+            that it’s literally life changing. It’s changed my life, of course,
+            but it changes the life of every user too. A great house build
+            starts with a solid foundation. And it
+          </div>
+        </footer>
       </main>
     </section>
   );

@@ -3,16 +3,23 @@
   flex-direction: row;
   justify-content: space-between;
   align-items: center;
+  border-top: 1px solid black;
+  border-bottom: 1px solid black;
+  padding: 8px 0;
+  background-color: white;
+  position: sticky;
+  top: 32px;
+  z-index: 1000;
+  width: 100%;
 
   .navigation-links {
-    border-top: 1px solid black;
-    border-bottom: 1px solid black;
-    padding: 4px 1px;
     display: flex;
     flex-direction: row;
-    font-size: 13px;
+    font-size: var(--font-par);
     text-transform: uppercase;
+
     gap: 8px;
+    cursor: pointer;
 
     .navigation-links-icon {
       height: 14px;

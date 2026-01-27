@@ -22,10 +22,22 @@ textarea {
 }
 
 html {
-  background-color: #ffffff;
-  font-weight: 400;
+  font-size: 62.5%;
 }
 
 body {
   font-size: 1.6rem;
+  background-color: #ffffff;
+  font-family: var(--font-RedHatDisplay);
+  font-weight: 450;
+}
+
+:root {
+  --padding-wrapper: clamp(
+    12px,
+    calc(12px + (116 - 12) * ((100vw - 320px) / (1920 - 320))),
+    116px
+  );
+  --font-par: clamp(0.833rem, 0.7596rem + 0.367vw, 1.2rem);
+  --font-title-xl: clamp(2.986rem, 1.8rem + 5.93vw, 8.916rem);
 }

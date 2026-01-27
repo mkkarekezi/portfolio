@@ -25,8 +25,8 @@ export function ProjectComponent({
         {template_logo && (
           <Image
             src={template_logo}
-            width={116}
-            height={116}
+            width={114}
+            height={114}
             alt="project logo"
             className="project-template-hero-logo"
           />
