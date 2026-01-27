@@ -107,12 +107,6 @@
         font-family: var(--font-jersey10);
         font-size: var(--font-title-xl);
       }
-
-      .home-main-fooeter-p {
-        font-size: var(--font-par);
-        text-transform: lowercase;
-        line-height: 1.1;
-      }
     }
   }
 }

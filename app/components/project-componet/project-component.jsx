@@ -4,41 +4,31 @@ import Image from "next/image";
 export function ProjectComponent({
   project_title,
   imageSrc,
-  titleOne,
-  titleTwo,
+  title,
   project_Description,
-  project_speciality_one,
-  project_speciality_two,
+  project_links,
   teck_stack,
   template_logo,
-  source_link,
-  project_link,
 }) {
   return (
     <div className="project">
       <div
-        className="project-template-hero"
+        className="project-hero"
         style={{
-          backgroundImage: `linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(${imageSrc})`,
+          backgroundImage: `linear-gradient(rgba(0, 0, 0, 0.35), rgba(0, 0, 0, 0.35)), url(${imageSrc})`,
         }}
       >
         {template_logo && (
-          <Image
+          <img
             src={template_logo}
-            width={114}
-            height={114}
             alt="project logo"
-            className="project-template-hero-logo"
+            className="project-hero-logo"
           />
         )}
-        <p className="project-template-hero-p">{titleOne}</p>
-        <p className="project-template-hero-p">{titleTwo}</p>
+        <p className="project-hero-p">{title}</p>
       </div>
 
-      <p className="project-title">
-        {project_title} (* {project_speciality_one} & * {project_speciality_two}
-        )
-      </p>
+      <p className="project-title">{project_title}</p>
 
       <div className="project-description">
         <p className="project-description-par">{project_Description}</p>
@@ -46,16 +36,7 @@ export function ProjectComponent({
       </div>
 
       {/*  */}
-      <div className="project-links">
-        <Link href={source_link} className="project-links-link">
-          source code
-          <img src="/icons/arrow-up-right.svg" alt="" />
-        </Link>
-        <Link href={project_link} className="project-links-link">
-          live project
-          <img src="/icons/arrow-up-right.svg" alt="" />
-        </Link>
-      </div>
+      <div className="project-links">{project_links}</div>
     </div>
   );
 }

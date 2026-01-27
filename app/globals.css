@@ -40,4 +40,5 @@ body {
   );
   --font-par: clamp(0.833rem, 0.7596rem + 0.367vw, 1.2rem);
   --font-title-xl: clamp(2.986rem, 1.8rem + 5.93vw, 8.916rem);
+  --icons-size: clamp(0.75rem, 0.6rem + 0.75vw, 1.5rem);
 }
