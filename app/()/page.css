@@ -28,7 +28,7 @@
       text-transform: uppercase;
     }
 
-    .home-aside-links {
+    .home-aside-p {
       cursor: pointer;
       font-size: var(--font-par);
       color: rgb(0, 0, 0, 0.5);

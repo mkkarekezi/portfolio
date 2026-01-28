@@ -31,7 +31,12 @@ export function ProjectComponent({
       <p className="project-title">{project_title}</p>
 
       <div className="project-description">
-        <p className="project-description-par">{project_Description}</p>
+        <p
+          className="project-description-par"
+          style={{ whiteSpace: "pre-line" }}
+        >
+          {project_Description}
+        </p>
         <div className="project-description-stack">{teck_stack}</div>
       </div>
 

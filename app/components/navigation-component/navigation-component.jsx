@@ -5,7 +5,7 @@ export function Navigation() {
   return (
     <nav className="navigation">
       <Link
-        href="#"
+        href="/"
         className="navigation-links"
         target="_blank"
         rel="noopener noreferrer"
@@ -18,18 +18,10 @@ export function Navigation() {
         target="_blank"
         rel="noopener noreferrer"
       >
-        about me
-      </Link>
-      <Link
-        href="#"
-        className="navigation-links"
-        target="_blank"
-        rel="noopener noreferrer"
-      >
         resume
       </Link>
       <Link
-        href="#"
+        href="https://www.linkedin.com/in/mugisha-karekezi-joel-58a1723a9/"
         className="navigation-links"
         target="_blank"
         rel="noopener noreferrer"
@@ -37,7 +29,7 @@ export function Navigation() {
         linked in
       </Link>
       <Link
-        href="#"
+        href="https://github.com/mkkarekezi/"
         className="navigation-links"
         target="_blank"
         rel="noopener noreferrer"
