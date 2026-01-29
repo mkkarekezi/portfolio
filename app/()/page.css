@@ -106,6 +106,7 @@
       .home-main-fooeter-h1 {
         font-family: var(--font-jersey10);
         font-size: var(--font-title-xl);
+        align-self: center;
       }
     }
   }

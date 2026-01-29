@@ -4,16 +4,9 @@ import Link from "next/link";
 export function Navigation() {
   return (
     <nav className="navigation">
+      <Link href="/">projects</Link>
       <Link
-        href="/"
-        className="navigation-links"
-        target="_blank"
-        rel="noopener noreferrer"
-      >
-        projects
-      </Link>
-      <Link
-        href="#"
+        href="https://drive.google.com/file/d/1oJGATNagm_-dwLHuTehH82MGeTgyDwEm/view?usp=sharing"
         className="navigation-links"
         target="_blank"
         rel="noopener noreferrer"
