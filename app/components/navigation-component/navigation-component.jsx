@@ -6,7 +6,7 @@ export function Navigation() {
     <nav className="navigation">
       <Link href="/">projects</Link>
       <Link
-        href="https://drive.google.com/file/d/1oJGATNagm_-dwLHuTehH82MGeTgyDwEm/view?usp=sharing"
+        href="https://drive.google.com/file/d/1yHqKoyX7SH9fqevtTLYGVMf4xkjaE5At/view?usp=sharing"
         className="navigation-links"
         target="_blank"
         rel="noopener noreferrer"
